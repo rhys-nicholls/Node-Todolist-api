@@ -1,5 +1,6 @@
 var  mongoose = require('mongoose');
 
+//Enable debugging in console
 mongoose.set('debug', true);
 mongoose.connect('mongodb://localhost/todo_api');
 
